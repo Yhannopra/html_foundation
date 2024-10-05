@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Royce M. Arpon</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="blog-one.html">BLOG 1</a></li>
+                <li><a href="blog-two.html">BLOG 2</a></li>
+                <li><a href="blog-three.html">BLOG 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <article>
+        <h2>Understanding Django</h2>
+        <p>Posted by <strong>Royce M. Arpon</strong></p>
+
+        <h3>What is Django?</h3>
+        <p>
+            <b>Django</b> is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It was created to simplify the process of building web applications by providing a set of tools and conventions that allow developers to focus on writing their applications rather than dealing with the repetitive tasks that come with web development. Django is maintained by the Django Software Foundation and has a vibrant community contributing to its continuous improvement.
+        </p>
+
+        <p>Django follows the model-template-views (MTV) architectural pattern, which separates the data model (the database), the user interface (HTML templates), and the business logic (views). This structure promotes modularity and reusability, making it easier to manage complex applications.</p>
+        
+        <p>One of Django’s key features is its emphasis on security. The framework includes built-in protections against many common web vulnerabilities, such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF). This makes it a popular choice for building secure web applications.</p>
+
+        <h3>Website Server-side Usage</h3>
+        <p>Django is primarily used on the server side of web applications. It enables developers to create dynamic websites by handling requests, interacting with databases, and rendering HTML content to be sent back to the client.</p>
+
+        <p>Examples of Django Functionality</p>
+        <ul>
+            <li><b>URL Routing</b>: Django’s URL dispatcher allows developers to create clean, SEO-friendly URLs that map to specific views, making navigation intuitive.</li>
+            <li><b>Database Interaction</b>: Using Django’s Object-Relational Mapping (ORM), developers can define their data models as Python classes and interact with the database using simple Python syntax instead of SQL.</li>
+            <li><b>Admin Interface</b>: Django comes with a built-in admin panel that provides an interface for managing application data, allowing for quick administration without the need for custom forms or views.</li>
+            <li><b>User Authentication</b>: Django includes a robust authentication system for managing user accounts, sessions, and permissions.</li>
+            <li><b>Form Handling</b>: The framework simplifies form handling and validation, automatically generating forms from models and providing built-in validation rules.</li>
+            <li><b>Static and Media Files Management</b>: Django offers tools for managing static files (like CSS and JavaScript) and user-uploaded media files, making deployment easier.</li>
+        </ul>
+
+        <h3>Web Libraries and Integrations</h3>
+        <p>Django integrates seamlessly with various libraries and tools to enhance its capabilities:</p>
+        <ol>
+            <li><b>Django REST Framework</b>: A powerful toolkit for building Web APIs, making it easier to develop RESTful services.</li>
+            <li><b>Celery</b>: For handling background tasks, allowing Django applications to perform long-running operations asynchronously.</li>
+            <li><b>Django Channels</b>: Extends Django to handle WebSockets and other asynchronous protocols, enabling real-time features in applications.</li>
+            <li><b>Django Allauth</b>: A comprehensive authentication solution that supports social authentication and account management.</li>
+        </ol>
+
+        <h3>Comparison with Other Frameworks</h3>
+        <p>While Django is a full-featured web framework, other frameworks cater to different needs:</p>
+        <ul>
+            <li><b>Flask</b>: A lightweight, micro-framework for Python that offers more flexibility and simplicity but requires more setup for larger applications.</li>
+            <li><b>Ruby on Rails</b>: Similar to Django, it follows the convention-over-configuration principle but is built on the Ruby programming language.</li>
+        </ul>
+        <p>Django's combination of built-in features, security measures, and community support makes it a popular choice for developers looking to create robust web applications efficiently.</p>
+
+    </article>
+
+    <form>
+        <h3>Web Framework Preference Survey</h3>
+        <p>Which web framework do you prefer for your projects?</p>
+        <label><input type="radio" name="framework" value="Django" required> Django</label></br>
+        <label><input type="radio" name="framework" value="React"> React</label><br>
+        <label><input type="radio" name="framework" value="Angular"> Angular</label><br>
+        <label><input type="radio" name="framework" value="Others"> Others</label>
+    </form>
+
+    <br>
+    <footer>Copyright &copy; 2030 by Royce M. Arpon All Rights Reserved.</footer>
+
+</body>
+</html>
